@@ -57,6 +57,7 @@ def reduce_to_any_true(array)
       return true 
     end 
   index += 1 
+end 
 return false 
 end 
 
