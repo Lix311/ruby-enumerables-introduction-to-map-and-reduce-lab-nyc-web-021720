@@ -21,3 +21,11 @@ def map_to_double(array)
 return array 
 end 
 
+def map_to_square(array)
+  index = 0 
+  while index < array.length 
+    array[index]**= 2  
+  index += 1 
+  end 
+return array 
+end 
