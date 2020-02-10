@@ -29,3 +29,28 @@ def map_to_square(array)
   end 
 return array 
 end 
+
+reduce_to_total(array)
+  index = 0 
+  total = 0 
+while index < array.length 
+  total += array[index]
+  index += 1 
+end 
+return total 
+end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
