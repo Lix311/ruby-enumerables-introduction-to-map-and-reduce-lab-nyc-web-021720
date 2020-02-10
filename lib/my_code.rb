@@ -8,6 +8,6 @@ def map_to_negativize(array)
 return array 
 end 
 
-def map_to_no_change()
-   
+def map_to_no_change(array)
+  return array  
 end 
