@@ -40,6 +40,15 @@ end
 return total 
 end 
 
+def reduce_to_total(array)
+  index = 0 
+  total =  
+while index < array.length 
+  total += array[index]
+  index += 1 
+end 
+return total 
+end 
 
 
 
