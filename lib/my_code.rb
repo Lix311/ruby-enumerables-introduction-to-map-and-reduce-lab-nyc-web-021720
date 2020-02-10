@@ -40,9 +40,9 @@ end
 return total 
 end 
 
-def reduce_to_total(array)
+def reduce_to_total(array,starting_total)
   index = 0 
-  total =  
+  total = starting_total
 while index < array.length 
   total += array[index]
   index += 1 
