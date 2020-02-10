@@ -30,7 +30,7 @@ def map_to_square(array)
 return array 
 end 
 
-reduce_to_total(array)
+def reduce_to_total(array)
   index = 0 
   total = 0 
 while index < array.length 
